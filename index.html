@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+  <section class="content">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header">
+            <h1 class="card-title">Tabel & JavaScript</h3>
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body table-responsive p-0" style="height: 300px;" >
+            <table class="table table-head-fixed" border="25" width="1000px" height="250px" style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Stambuk</th>
+                  <th>Nama</th>
+                  <th>Jenis Kelamin</th>
+                  <th>Jurusan</th>
+                  <th>Keterangan</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>F52120055</td>
+                    <td>MOH RIFKI</td>
+                    <td>Laki-Laki</td>
+                    <td>Teknologi Informasi</td>
+                    <td>
+                        <div class="card-footer">
+                            <button type="submit" id="btn btn-info" name="simpan" onclick="Swal.fire({
+                              position: 'content',
+                              icon: 'success',
+                              title: 'Your work has been saved',
+                              showConfirmButton: false,
+                              timer: 1500
+                            })"
+                            >simpan</button>
+                        </div>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>F52120037</td>
+                    <td>Didit</td>
+                    <td>Laki-laki</td>
+                    <td>Teknologi Informasi</td>
+                    <td>
+                        <div class="card-footer">
+                            <button type="submit" id="btn btn-info" name="simpan" onclick="Swal.fire({
+                              position: 'content',
+                              icon: 'success',
+                              title: 'Your work has been saved',
+                              showConfirmButton: false,
+                              timer: 1500
+                            })"
+                            >simpan</button>
+                        </div>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>F52120003</td>
+                    <td>Ikhsan</td>
+                    <td>Laki-Laki</td>
+                    <td>Teknologi Informasi</td>
+                    <td>
+                        <div class="card-footer">
+                            <button type="submit" id="btn btn-info" name="simpan" onclick="Swal.fire({
+                              position: 'content',
+                              icon: 'success',
+                              title: 'Your work has been saved',
+                              showConfirmButton: false,
+                              timer: 1500
+                            })"
+                            >simpan</button>
+                        </div>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>F52120044</td>
+                    <td>Vinno</td>
+                    <td>Laki-Laki</td>
+                    <td>Teknologi Informasi</td>
+                    <td>
+                        <div class="card-footer">
+                            <button type="submit" id="btn btn-info" name="simpan" onclick="Swal.fire({
+                              position: 'content',
+                              icon: 'success',
+                              title: 'Your work has been saved',
+                              showConfirmButton: false,
+                              timer: 1500
+                            })"
+                            >simpan</button>
+                        </div>
+                  </tr>
+            </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+      </div>
+    </div>
+    <!-- /.row -->
+  </section>
+</body>
+<script src="dist/sweetalert2.all.min.js"></script>
+<script>
+  
+    function showAlert(){
+      swal.fire("Hello Word!");
+    }
+</script>
+</html>
